@@ -1,0 +1,122 @@
+
+.home_page{
+  display: flex;
+  justify-content: center;
+  margin-left: 26%;
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  text-shadow: #161616 0.2px 2px 3px;
+  box-shadow: rgb(10, 10, 10) 0px 20px 30px -10px;
+  background-color:rgba(69, 71, 71, 0.741);
+  height: 150px;
+  width: 50%;
+  color: aliceblue;
+}
+
+.mb-3{
+ padding-top: 25px;
+ 
+}
+.inputbtn{
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  width:40%;
+}
+
+.btn-list{
+  display: flex;
+  justify-content: center;
+
+}
+
+.btn-list button {
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 2px solid #080808;
+
+  border-radius: 12px;
+}
+
+
+li {
+  list-style: none;
+}
+
+li h2{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width:30%;
+  margin-left: 305px;
+
+  font-size: 20px;
+}
+
+/* CSS BTN-29 */
+.btn29-func{
+    display: flex;
+    justify-content: space-between;
+    width: 28%; 
+    margin-left: 37%; 
+    
+}
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5d6260 0, #a4a4a9 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color:black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 28px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size:14px;
+}
+
+.button-29:focus {
+  box-shadow: #0f0f11 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #8f9096 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #060607 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #0a0a0a 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.cardSection{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  color:black;
+ 
+}
+
+

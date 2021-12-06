@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import Listtask from './Components/Listtask'
 import './App.css';
+import Addtask from './Components/Addtask';
+import "./Css/style.css";
+import HomePage from "./Components/Home";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HomePage/>
+      <Addtask />
+      <Listtask />
     </div>
   );
 }
